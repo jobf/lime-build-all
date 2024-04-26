@@ -22,3 +22,14 @@ You can get some extra debug info with e.g.
 ```
 haxe --debug --run BuildAll.hx ~/code/peote-playground ~/code/peote-playground-html
 ```
+
+## Testing
+
+You need a web server to test, if you have python installed you can setup a web server locally like so
+
+```
+cd ~/code/peote-playground-html
+python -m http.server
+```
+
+Then browse to http://localhost:8000/
