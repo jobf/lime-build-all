@@ -2,6 +2,8 @@ Builds all projects in a folder recursively to html5 and generates index pages f
 
 By default it will ignore applications which are already built. This behaviour can be set with a command line argument.
 
+If you want to exclude projects from building you can add to the `blacklist` array. For example `'net'` in here prevents all the `peote-net` projects build from peote-playground.
+
 ## Example use
 
 
